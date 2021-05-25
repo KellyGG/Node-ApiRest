@@ -1,0 +1,22 @@
+{
+  "name": "apirest-mutante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KellyGG/Node-ApiRest.git"
+  },
+  "author": "kelly Garzóin Gil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KellyGG/Node-ApiRest/issues"
+  },
+  "homepage": "https://github.com/KellyGG/Node-ApiRest#readme",
+  "dependencies": {
+    "mssql": "^7.1.0"
+  }
+}
