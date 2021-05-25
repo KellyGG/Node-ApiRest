@@ -1,5 +1,5 @@
 # Node-ApiRest
-Se incluye el código fuente usado para crear la api en javascript (node), y se subió la base de datos a un rds de aws (los scripts se encuentran en la carpeta "base de datos"). Para ejecutar la api se puede invocar de la siguiente manera usando postman:
+Se incluye el código fuente usado para crear la api en javascript (node), dentro de la carpeta "mutant" esta el método creado para saber si un adn es mutante o humano, y de igual forma en la carpeta stats incluye la lgoica necesario. A cerca de la conexión al sql, este se encuentra en la carpeta Connection; y se subió la base de datos a un rds de aws (los scripts se encuentran en la carpeta "base de datos"). Para ejecutar la api se puede invocar de la siguiente manera usando postman:
 
 1- Para saber si el adn es de un humano o mutante:
 url: https://qa9xre12nh.execute-api.us-east-2.amazonaws.com/Stage1HumanMutant/mutant
