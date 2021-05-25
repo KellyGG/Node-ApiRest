@@ -9,7 +9,8 @@ module.exports.handler = async (event) => {
     let resultADN=''
     let respuesta='';
     try{
-      let lettersValid = /^[ATGCatgc,]+$/
+  
+        let lettersValid = /^[ATGCatgc,]+$/
         if(Array.isArray(body.dna)
         &&
         (lettersValid.test(body.dna.toString())
@@ -27,7 +28,7 @@ module.exports.handler = async (event) => {
             .execute("dbo.spInsertResultADN").then(function (recordSet) {  
             console.log("respuesta ",recordSet);
             })  
-
+                console.log("resul",result)
               if(resultADN === false) {
                 respuesta = {
                 error: false,
