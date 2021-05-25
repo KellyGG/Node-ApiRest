@@ -1,5 +1,7 @@
 // DB.js config for your database  
-const sql = require('mssql')  
+const sql = require('mssql') 
+
+// configuration to connect to sql, the database is on rds on aws
 const config = {  
 user: "admin",  
 password: "Huequitos.08",  
